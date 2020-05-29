@@ -6,9 +6,6 @@ class Card {
   id: string;
 
   @Column()
-  type: string;
-
-  @Column()
   name: string;
 }
 
